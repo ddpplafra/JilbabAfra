@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> Buku Tamu </title>
+</head>
+<body> 
+ Buku Tamu </br>
+ <?php
+ extract($_POST);
+ echo " <h3>
+ Terima Kasih telah mengisi buku tamu kami. </h3>
+</br>";
+
+ echo 'Nama Anda : '.$nama.' </br>';
+ echo "Alamat Anda : ".$alamat." </br>";
+ ?>
+ <form action ="form.html">
+  <input type ="submit" value ="kembali" name ="Kembali">
+ </form>
+</body>
+</html>
