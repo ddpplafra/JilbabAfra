@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN”
+ “http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”>
+<html xmlns=”http://www.w3.org/1999/xhtml” xml:lang=”en” lang=”en”>
+	<head>
+		<title>An HTML Form</title>
+		<link rel=”stylesheet” type=”text/css” href=”common.css” />
+	</head>
+	<body>
+		<h1>An HTML Form</h1>
+			<h3><b>Detail Pribadi Anda</b></h3>
+			<form action=”” method=”get”>
+				<div style=”width: 25em;”>
+					<br><label for=”namaDepan”>Nama Depan :</label>
+						<input type=”text” name=”namaDepan” id=”namaDepan” /></br>
+					<br><label for=”namaBelakang”>Nama Belakang :</label>
+						<input type=”text” name=”namaBelakang” id=”namaBelakang” /></br>
+					<br><label for=”email”>Email :</label>
+						<input type=”text” name=”email” id=”email” /></br>
+					<br><label for=”telepon”>Telepon :</label>
+						<input type=”text” name=”telepon” id=”telepon” /></br>
+				</div>
+			</form>
+			<h3><b>Alamat Anda</b></h3>
+			<form action=”” method=”get”>
+				<div style=”width: 25em;”>
+					<br><label for=”alamat”>Alamat :</label>
+						<input type=”text” name=”alamat” id=”alamat” /></br>
+					<br><label for=”kodePos”>Kode Pos :</label>
+						<input type=”text” name=”kodePos” id=”kodePos” /></br>
+					<br><label for=”kecamatan”>Kecamatan :</label>
+						<input type=”text” name=”kecamatan” id=”kecamatan” /></br>
+					<br><label for=”propinsi”>Propinsi :</label>
+						<input type=”text” name=”propinsi” id=”propinsi” /></br>
+					<br><label for=”kotaKab”>Kota/Kabupaten :</label>
+						<input type=”text” name=”kotaKab” id=”kotaKab” /></br>
+				</div>
+			</form>
+			<h3><b>Password Anda</b></h3>
+			<form action=”” method=”get”>
+				<div style=”width: 25em;”>
+				<br><label for=”password”>Password :</label>
+					<input type=”password” name=”password” id=”password /></br>
+				<br><label for=”passwordAgain”>Konfirmasi Password :</label>
+					<input type=”password” name=”passwordAgain” id=”passwordAgain” /></br>	
+				</div>
+			</form>
+			<div style=”clear: both;”>
+				<input type=”submit” name=”submitButton” id=”submitButton” value=”Send Details” />
+				<input type=”reset” name=”resetButton” id=”resetButton” value=”Reset Form” style=”margin-right: 20px;” />
+			</div>
+	</body>				
+</html>					
