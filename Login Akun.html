@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://jilbabAfraSidoarjo.id/login -->
+<html dir="ltr" lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Login Akun</title>
+<!--<base href="http://jilbabAfraSidoarjo.id/">--><base href=".">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="http://jilbabAfraSidoarjo.id/image/data/icon-web.png" rel="icon">
+<link rel="stylesheet" type="text/css" href="./Login Akun_files/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="./Login Akun_files/responsive.css">
+<script type="text/javascript" src="./Login Akun_files/jquery-1.7.1.min.js.download"></script>
+<script type="text/javascript" src="./Login Akun_files/jquery-ui-1.8.16.custom.min.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./Login Akun_files/jquery-ui-1.8.16.custom.css">
+<script type="text/javascript" src="./Login Akun_files/common.js.download"></script>
+<link href="./Login Akun_files/css" rel="stylesheet" type="text/css">
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/ancart/stylesheet/ie7.css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/ancart/stylesheet/ie6.css" />
+<script type="text/javascript" src="catalog/view/javascript/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#logo img');
+</script>
+<![endif]-->
+<!--[if lt IE 9]>
+   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+
+	
+	<script src="./Login Akun_files/jquery.ui.autocomplete.min.js.download" type="text/javascript"></script>
+	
+		 <script type="text/javascript">
+function changeSelect(country_id, zone_id) {
+	   $.ajax({
+		url: 'index.php?route=checkout/checkout/country&country_id=' + country_id,
+		dataType: 'json',
+		beforeSend: function() {
+			$('select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+		},
+		complete: function() {
+			$('.wait').remove();
+		},			
+		success: function(json) {
+			if (json['postcode_required'] == '1') {
+				$('#payment-postcode-required').show();
+			} else {
+				$('#payment-postcode-required').hide();
+			}
+			
+			html = '<option value="">--- Silahkan Pilih ---:</option>';
+			
+			if (json['zone'] != '') {
+
+				for (i = 0; i < json['zone'].length; i++) {
+        			html += '<option value="' + json['zone'][i]['zone_id'] + '"';
+	    			
+					if (json['zone'][i]['zone_id'] == zone_id ) {
+	      				html += ' selected="selected"';
+	    			}
+	
+	    			html += '>' + json['zone'][i]['name'] + '</option>';
+				}
+			} else {
+				html += '<option value="0" selected="selected">--- Tidak ada ---:</option>';
+			}
+			
+			$('select[name=\'zone_id\']').html(html);
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});	
+}
+</script>
+					
+</head>
+<body>
+<div id="container">
+<div class="small_cat"><div><img src="./Login Akun_files/menu2.png"></div>
+	<select onchange="location = this.value">
+		<option></option>
+		<option value="http://jilbabAfraSidoarjo.id/home">Beranda</option>
+        <option value="http://jilbabAfraSidoarjo.id/daftar-belanja" id="wishlist-total">Daftar Belanja (0)</option>
+        <option value="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</option>
+        <option value="http://jilbabAfraSidoarjo.id/keranjang-belanja">Keranjang Belanja</option>
+        <option value="http://jilbabAfraSidoarjo.id/checkout">Checkout / Menuju Kasir</option>
+		<option>------------</option>
+		<option value="http://jilbabAfraSidoarjo.id/produk-kategori/beria">BERIA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/syifa">SYIFA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/siera">SIERA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/pasha">PASHA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/phita">PHITA </option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/amira">AMIRA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/karina">KARINA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/katalog">KATALOG</option>
+		</select></div><div id="header">
+	<div class="toplinks">
+    <div><a href="http://jilbabAfraSidoarjo.id/home">Beranda</a><a href="http://jilbabAfraSidoarjo.id/konfirmasi-transfer">Konfirmasi Transfer</a><a href="http://jilbabAfraSidoarjo.id/daftar-belanja" id="wishlist-total">Daftar Belanja (0)</a><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a><a href="http://jilbabAfraSidoarjo.id/keranjang-belanja">Keranjang Belanja</a><a href="http://jilbabAfraSidoarjo.id/checkout">Checkout / Menuju Kasir</a></div>
+</div>
+    <div id="logo"><a href="http://jilbabAfraSidoarjo.id/home"><img src="./Login Akun_files/LOGO-HOME.png" title="jilbabAfra" alt="jilbabAfra"></a></div>
+        <div id="cart">
+  <div class="heading">
+    <h4>Keranjang Belanja</h4>
+    <a><span id="cart-total">0 item(s) - Rp0</span></a></div>
+  <div class="content">
+        <div class="empty">Keranjang Belanja Anda kosong!</div>
+      </div>
+</div>  <div id="search">
+    <div class="button-search"></div>
+    <input type="text" name="search" placeholder="Cari" value="">
+  </div>
+  <div id="welcome">
+        Selamat datang, silahkan <a href="http://jilbabAfraSidoarjo.id/login">login</a> atau <a href="http://jilbabAfraSidoarjo.id/registrasi">daftar</a>.      </div>
+</div>
+<div class="wrapper">
+<div id="menu"><ul class="org_cat"><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/beria">BERIA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/syifa">SYIFA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/siera">SIERA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/pasha">PASHA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/phita">PHITA </a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/amira">AMIRA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/karina">KARINA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/katalog">KATALOG</a></li></ul></div><div id="notification"></div><div id="column-left">
+    <div class="box">
+  <div class="box-heading">Akun</div>
+  <div class="box-content">
+    <ul>
+            <li><a href="http://jilbabAfraSidoarjo.id/login">Login</a> / <a href="http://jilbabAfraSidoarjo.id/registrasi">Daftar</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/forgot-password">Lupa Password</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/alamat-akun">Buku Alamat</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/daftar-belanja">Daftar Belanja</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/pemesanan">Riwayat Pesanan</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/downloads">Download</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/retur">Retur</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/transaksi">Transaksi</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/berlangganan">Berita</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=account/recurring">Pembayaran berulang</a></li>
+          </ul>
+  </div>
+</div>
+  </div>
+ 
+<div id="content">  <div class="breadcrumb">
+        <a href="http://jilbabAfraSidoarjo.id/home">Beranda</a>
+         » <a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun</a>
+         » <a href="http://jilbabAfraSidoarjo.id/login">Login</a>
+      </div>
+  <h1>Login Akun</h1>
+  <div class="login-content">
+    <div class="left">
+      <h2>Daftar Akun</h2>
+      <div class="content">
+        <p><b>Daftar Akun</b></p>
+        <p>Dengan membuat Akun, Anda dapat berbelanja lebih cepat, selalu update dengan status pesanan dan dapat melihat riwayat pesanan yang pernah Anda lakukan sebelumnya.</p>
+        <a href="http://jilbabAfraSidoarjo.id/registrasi" class="button">Lanjutkan</a></div>
+    </div>
+    <div class="right">
+      <h2>Member Login</h2>
+      <form action="http://jilbabAfraSidoarjo.id/login" method="post" enctype="multipart/form-data">
+        <div class="content">
+          <p>Bagi yang sudah memiliki Akun, silahkan login disini.</p>
+          <b>Alamat Email:</b><br>
+          <input type="text" name="email" value="">
+          <br>
+          <br>
+          <b>Password:</b><br>
+          <input type="password" name="password" value="">
+          <br>
+          <a href="http://jilbabAfraSidoarjo.id/forgot-password">Lupa Password</a><br>
+          <br>
+          <input type="submit" value="Login" class="button">
+                    <input type="hidden" name="redirect" value="http://jilbabAfraSidoarjo.id/akun-saya">
+                  </div>
+      </form>
+    </div>
+  </div>
+  </div>
+<script type="text/javascript"><!--
+$('#login input').keydown(function(e) {
+	if (e.keyCode == 13) {
+		$('#login').submit();
+	}
+});
+//--></script> 
+</div>
+<div id="footer">
+  <div class="column">
+    <h3>Akun Saya</h3>
+    <ul>
+      <li><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/pemesanan">Riwayat Pesanan</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/daftar-belanja">Daftar Belanja</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/berlangganan">Berita</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Layanan Pelanggan</h3>
+    <ul>
+
+      <li><a href="http://jilbabAfraSidoarjo.id/kontak-kami">Hubungi Kami</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/retur-produk">Retur Produk</a></li>
+      
+      
+      
+    </ul>
+  </div>
+    <div class="column">
+    <h3>Informasi</h3>
+    <ul>
+            <li><a href="http://jilbabAfraSidoarjo.id/tentang-kami">Tentang Kami</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/tanya-jawab">Tanya Jawab</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+          </ul>
+  </div>
+  <!--  <div class="column">
+    <h3>Ekstra</h3>
+    <ul>
+      <li><a href="http://jilbabAfraSidoarjo.id/suplier">Merk</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=account/voucher">Voucher Hadiah</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/afiliasi">Afiliasi</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/promo">Spesial</a></li>
+    </ul>
+  </div>
+</div>
+//-->
+<!--
+      <li><a href="http://jilbabAfraSidoarjo.id/sitemap">Peta Situs</a></li>
+//-->
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+<div id="powered"> jilbabAfra © 2016</div>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</div>
+</div></body></html>
