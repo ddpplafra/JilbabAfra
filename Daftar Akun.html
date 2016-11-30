@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://jilbabAfraSidoarjo.id/registrasi -->
+<html dir="ltr" lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Daftar Akun</title>
+<!--<base href="http://jilbabAfraSidoarjo.id/">--><base href=".">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="http://jilbabAfraSidoarjo.id/image/data/icon-web.png" rel="icon">
+<link rel="stylesheet" type="text/css" href="./Daftar Akun_files/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="./Daftar Akun_files/responsive.css">
+<link rel="stylesheet" type="text/css" href="./Daftar Akun_files/colorbox.css" media="screen">
+<script type="text/javascript" src="./Daftar Akun_files/jquery-1.7.1.min.js.download"></script>
+<script type="text/javascript" src="./Daftar Akun_files/jquery-ui-1.8.16.custom.min.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./Daftar Akun_files/jquery-ui-1.8.16.custom.css">
+<script type="text/javascript" src="./Daftar Akun_files/common.js.download"></script>
+<script type="text/javascript" src="./Daftar Akun_files/jquery.colorbox-min.js.download"></script>
+<link href="./Daftar Akun_files/css" rel="stylesheet" type="text/css">
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/ancart/stylesheet/ie7.css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/ancart/stylesheet/ie6.css" />
+<script type="text/javascript" src="catalog/view/javascript/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#logo img');
+</script>
+<![endif]-->
+<!--[if lt IE 9]>
+   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+
+	
+	<script src="./Daftar Akun_files/jquery.ui.autocomplete.min.js.download" type="text/javascript"></script>
+	
+		 <script type="text/javascript">
+function changeSelect(country_id, zone_id) {
+	   $.ajax({
+		url: 'index.php?route=checkout/checkout/country&country_id=' + country_id,
+		dataType: 'json',
+		beforeSend: function() {
+			$('select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+		},
+		complete: function() {
+			$('.wait').remove();
+		},			
+		success: function(json) {
+			if (json['postcode_required'] == '1') {
+				$('#payment-postcode-required').show();
+			} else {
+				$('#payment-postcode-required').hide();
+			}
+			
+			html = '<option value="">--- Silahkan Pilih ---:</option>';
+			
+			if (json['zone'] != '') {
+
+				for (i = 0; i < json['zone'].length; i++) {
+        			html += '<option value="' + json['zone'][i]['zone_id'] + '"';
+	    			
+					if (json['zone'][i]['zone_id'] == zone_id ) {
+	      				html += ' selected="selected"';
+	    			}
+	
+	    			html += '>' + json['zone'][i]['name'] + '</option>';
+				}
+			} else {
+				html += '<option value="0" selected="selected">--- Tidak ada ---:</option>';
+			}
+			
+			$('select[name=\'zone_id\']').html(html);
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});	
+}
+</script>
+					
+</head>
+<body>
+<div id="container">
+<div class="small_cat"><div><img src="./Daftar Akun_files/menu2.png"></div>
+	<select onchange="location = this.value">
+		<option></option>
+		<option value="http://jilbabAfraSidoarjo.id/home">Beranda</option>
+        <option value="http://jilbabAfraSidoarjo.id/daftar-belanja" id="wishlist-total">Daftar Belanja (0)</option>
+        <option value="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</option>
+        <option value="http://jilbabAfraSidoarjo.id/keranjang-belanja">Keranjang Belanja</option>
+        <option value="http://jilbabAfraSidoarjo.id/checkout">Checkout / Menuju Kasir</option>
+		<option>------------</option>
+		<option value="http://jilbabAfraSidoarjo.id/produk-kategori/beria">BERIA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/syifa">SYIFA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/siera">SIERA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/pasha">PASHA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/phita">PHITA </option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/amira">AMIRA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/karina">KARINA</option><option value="http://jilbabAfraSidoarjo.id/produk-kategori/katalog">KATALOG</option>
+		</select></div><div id="header">
+	<div class="toplinks">
+    <div><a href="http://jilbabAfraSidoarjo.id/home">Beranda</a><a href="http://jilbabAfraSidoarjo.id/konfirmasi-transfer">Konfirmasi Transfer</a><a href="http://jilbabAfraSidoarjo.id/daftar-belanja" id="wishlist-total">Daftar Belanja (0)</a><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a><a href="http://jilbabAfraSidoarjo.id/keranjang-belanja">Keranjang Belanja</a><a href="http://jilbabAfraSidoarjo.id/checkout">Checkout / Menuju Kasir</a></div>
+</div>
+    <div id="logo"><a href="http://jilbabAfraSidoarjo.id/home"><img src="./Daftar Akun_files/LOGO-HOME.png" title="jilbabAfra" alt="jilbabAfra"></a></div>
+        <div id="cart">
+  <div class="heading">
+    <h4>Keranjang Belanja</h4>
+    <a><span id="cart-total">0 item(s) - Rp0</span></a></div>
+  <div class="content">
+        <div class="empty">Keranjang Belanja Anda kosong!</div>
+      </div>
+</div>  <div id="search">
+    <div class="button-search"></div>
+    <input type="text" name="search" placeholder="Cari" value="">
+  </div>
+  <div id="welcome">
+        Selamat datang, silahkan <a href="http://jilbabAfraSidoarjo.id/login">login</a> atau <a href="http://jilbabAfraSidoarjo.id/registrasi">daftar</a>.      </div>
+</div>
+<div class="wrapper">
+<div id="menu"><ul class="org_cat"><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/beria">BERIA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/syifa">SYIFA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/siera">SIERA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/pasha">PASHA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/phita">PHITA </a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/amira">AMIRA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/karina">KARINA</a></li><li><a href="http://jilbabAfraSidoarjo.id/produk-kategori/katalog">KATALOG</a></li></ul></div><div id="notification"></div><div id="column-left">
+    <div class="box">
+  <div class="box-heading">Akun</div>
+  <div class="box-content">
+    <ul>
+            <li><a href="http://jilbabAfraSidoarjo.id/login">Login</a> / <a href="http://jilbabAfraSidoarjo.id/registrasi">Daftar</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/forgot-password">Lupa Password</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/alamat-akun">Buku Alamat</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/daftar-belanja">Daftar Belanja</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/pemesanan">Riwayat Pesanan</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/downloads">Download</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/retur">Retur</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/transaksi">Transaksi</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/berlangganan">Berita</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=account/recurring">Pembayaran berulang</a></li>
+          </ul>
+  </div>
+</div>
+  </div>
+ 
+<div id="content">  <div class="breadcrumb">
+        <a href="http://jilbabAfraSidoarjo.id/home">Beranda</a>
+         » <a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun</a>
+         » <a href="http://jilbabAfraSidoarjo.id/registrasi">Daftar</a>
+      </div>
+  <h1>Daftar Akun</h1>
+  <p>Jika Anda telah memiliki Akun, silahkan login di <a href="http://jilbabAfraSidoarjo.id/login">halaman login</a>.</p>
+  <form action="http://jilbabAfraSidoarjo.id/registrasi" method="post" enctype="multipart/form-data">
+    <h2>Detail Pribadi Anda</h2>
+    <div class="content">
+      <table class="form">
+        <tbody><tr>
+          <td><span class="required">*</span> Nama Depan:</td>
+          <td><input type="text" name="firstname" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Nama Belakang:</td>
+          <td><input type="text" name="lastname" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Email:</td>
+          <td><input type="text" name="email" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Telepon:</td>
+          <td><input type="text" name="telephone" value="">
+            </td>
+        </tr>
+        <tr style="display:none;">
+          <td>Fax:</td>
+          <td><input type="text" name="fax" value=""></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <h2>Alamat Anda</h2>
+    <div class="content">
+      <table class="form">
+        <tbody><tr style="display:none;">
+          <td>Perusahaan:</td>
+          <td><input type="text" name="company" value=""></td>
+        </tr>        
+        <tr style="display: none;">
+          <td>Tipe Bisnis:</td>
+          <td>                        <input type="radio" name="customer_group_id" value="4" id="customer_group_id4" checked="checked">
+            <label for="customer_group_id4">Ecer</label>
+            <br>
+                        </td>
+        </tr>      
+        <tr id="company-id-display" style="display: none;">
+          <td><span id="company-id-required" class="required" style="display: none;">*</span> ID Perusahaan:</td>
+          <td><input type="text" name="company_id" value="">
+            </td>
+        </tr>
+        <tr id="tax-id-display" style="display: none;">
+          <td><span id="tax-id-required" class="required" style="display: none;">*</span> NPWP:</td>
+          <td><input type="text" name="tax_id" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Alamat:</td>
+          <td><input type="text" name="address_1" value="">
+            </td>
+        </tr>
+        <tr style="display:none;">
+          <td>Alamat 2:</td>
+          <td><input type="text" name="address_2" value=""></td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Kode Pos:</td>
+          <td><input type="text" name="city" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span id="postcode-required" class="required">*</span> Kecamatan:</td>
+          <td><input type="text" name="postcode" value="" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Propinsi:</td>
+          <td><select name="country_id">
+              <option value=""> --- Silahkan Pilih --- </option>
+                                          <option value="1">Aceh</option>
+                                                        <option value="16">Bali</option>
+                                                        <option value="8">Bangka Belitung</option>
+                                                        <option value="10">Banten</option>
+                                                        <option value="6">Bengkulu</option>
+                                                        <option value="15">DI Yogyakarta</option>
+                                                        <option value="12">DKI Jakarta</option>
+                                                        <option value="24">Gorontalo</option>
+                                                        <option value="5">Jambi</option>
+                                                        <option value="11" selected="selected">Jawa Barat</option>
+                                                        <option value="13">Jawa Tengah</option>
+                                                        <option value="14">Jawa Timur</option>
+                                                        <option value="19">Kalimantan Barat</option>
+                                                        <option value="20">Kalimantan Selatan</option>
+                                                        <option value="21">Kalimantan Tengah</option>
+                                                        <option value="22">Kalimantan Timur</option>
+                                                        <option value="23">Kepulauan Riau</option>
+                                                        <option value="9">Lampung</option>
+                                                        <option value="30">Maluku</option>
+                                                        <option value="31">Maluku Utara</option>
+                                                        <option value="17">Nusa Tenggara Barat</option>
+                                                        <option value="18">Nusa Tenggara Timur</option>
+                                                        <option value="32">Papua</option>
+                                                        <option value="33">Papua Barat</option>
+                                                        <option value="4">Riau</option>
+                                                        <option value="29">Sulawesi Barat</option>
+                                                        <option value="25">Sulawesi Selatan</option>
+                                                        <option value="27">Sulawesi Tengah</option>
+                                                        <option value="26">Sulawesi Tenggara</option>
+                                                        <option value="28">Sulawesi Utara</option>
+                                                        <option value="3">Sumatera Barat</option>
+                                                        <option value="2">Sumatera Utara</option>
+                                                        <option value="7">Sumatra Selatan</option>
+                                        </select>
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Kota/Kabupaten:</td>
+          <td><select name="zone_id"><option value=""> --- Silahkan Pilih --- </option><option value="155">Kab. Bandung</option><option value="156">Kab. Bandung Barat</option><option value="157">Kab. Bekasi</option><option value="158">Kab. Bogor</option><option value="159">Kab. Ciamis</option><option value="160">Kab. Cianjur</option><option value="161">Kab. Cirebon</option><option value="162">Kab. Garut</option><option value="163">Kab. Indramayu</option><option value="164">Kab. Karawang</option><option value="165">Kab. Kuningan</option><option value="166">Kab. Majalengka</option><option value="167">Kab. Pangandaran</option><option value="168">Kab. Purwakarta</option><option value="169">Kab. Subang</option><option value="170">Kab. Sukabumi</option><option value="171">Kab. Sumedang</option><option value="172">Kab. Tasikmalaya</option><option value="173">Kota Bandung</option><option value="174">Kota Banjar</option><option value="175">Kota Bekasi</option><option value="176">Kota Bogor</option><option value="177">Kota Cimahi</option><option value="178">Kota Cirebon</option><option value="179">Kota Depok</option><option value="180">Kota Sukabumi</option><option value="181">Kota Tasikmalaya</option></select>
+            </td>
+        </tr>
+      </tbody></table>
+    </div>
+    <h2>Password Anda</h2>
+    <div class="content">
+      <table class="form">
+        <tbody><tr>
+          <td><span class="required">*</span> Password:</td>
+          <td><input type="password" name="password" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Konfirmasi Password:</td>
+          <td><input type="password" name="confirm" value="">
+            </td>
+        </tr>
+      </tbody></table>
+    </div>
+    <h2>Berita</h2>
+    <div class="content">
+      <table class="form">
+        <tbody><tr>
+          <td>Berlangganan:</td>
+          <td>            <input type="radio" name="newsletter" value="1">
+            Ya            <input type="radio" name="newsletter" value="0" checked="checked">
+            Tidak            </td>
+        </tr>
+      </tbody></table>
+    </div>
+        <div class="buttons">
+      <div class="right">Saya telah membaca dan setuju dengan <a class="colorbox cboxElement" href="http://jilbabAfraSidoarjo.id/index.php?route=information/information/info&amp;information_id=3" alt="Privacy Policy"><b>Privacy Policy</b></a>                <input type="checkbox" name="agree" value="1">
+                <input type="submit" value="Lanjutkan" class="button">
+      </div>
+    </div>
+      </form>
+  </div>
+<script type="text/javascript"><!--
+$('input[name=\'customer_group_id\']:checked').live('change', function() {
+	var customer_group = [];
+	
+	customer_group[4] = [];
+	customer_group[4]['company_id_display'] = '0';
+	customer_group[4]['company_id_required'] = '0';
+	customer_group[4]['tax_id_display'] = '0';
+	customer_group[4]['tax_id_required'] = '0';
+	
+
+	if (customer_group[this.value]) {
+		if (customer_group[this.value]['company_id_display'] == '1') {
+			$('#company-id-display').show();
+		} else {
+			$('#company-id-display').hide();
+		}
+		
+		if (customer_group[this.value]['company_id_required'] == '1') {
+			$('#company-id-required').show();
+		} else {
+			$('#company-id-required').hide();
+		}
+		
+		if (customer_group[this.value]['tax_id_display'] == '1') {
+			$('#tax-id-display').show();
+		} else {
+			$('#tax-id-display').hide();
+		}
+		
+		if (customer_group[this.value]['tax_id_required'] == '1') {
+			$('#tax-id-required').show();
+		} else {
+			$('#tax-id-required').hide();
+		}	
+	}
+});
+
+$('input[name=\'customer_group_id\']:checked').trigger('change');
+//--></script> 
+<script type="text/javascript"><!--
+$('select[name=\'country_id\']').bind('change', function() {
+	$.ajax({
+		url: 'index.php?route=account/register/country&country_id=' + this.value,
+		dataType: 'json',
+		beforeSend: function() {
+			$('select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+		},
+		complete: function() {
+			$('.wait').remove();
+		},			
+		success: function(json) {
+			if (json['postcode_required'] == '1') {
+				$('#postcode-required').show();
+			} else {
+				$('#postcode-required').hide();
+			}
+			
+			html = '<option value=""> --- Silahkan Pilih --- </option>';
+			
+			if (json['zone'] != '') {
+				for (i = 0; i < json['zone'].length; i++) {
+        			html += '<option value="' + json['zone'][i]['zone_id'] + '"';
+	    			
+					if (json['zone'][i]['zone_id'] == '') {
+	      				html += ' selected="selected"';
+	    			}
+	
+	    			html += '>' + json['zone'][i]['name'] + '</option>';
+				}
+			} else {
+				html += '<option value="0" selected="selected"> --- Tidak Ada --- </option>';
+			}
+			
+			$('select[name=\'zone_id\']').html(html);
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});
+});
+
+$('select[name=\'country_id\']').trigger('change');
+//--></script> 
+<script type="text/javascript"><!--
+$(document).ready(function() {
+	$('.colorbox').colorbox({
+		width: 640,
+		height: 480
+	});
+});
+//--></script> 
+		
+	<script type="text/javascript"><!--
+				$('#postcode-required').show();
+								
+		$('input[name=\'postcode\']').autocomplete({
+		delay: 500,
+		source: function(request, response) {
+		$.ajax({
+			url: 'index.php?route=checkout/cart/autocomplete&filter_name=' +  encodeURIComponent(request.term),
+			dataType: 'json',
+				beforeSend: function() {
+			$('input[name=\'postcode\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+		},
+		complete: function() {
+			$('.wait').remove();
+		},	
+			success: function(json) {		
+				response($.map(json, function(item) {
+					return {
+						label: item.name + ', ' + item.zone,
+						value: item.kecamatan_id,
+						value_zone_id: item.zone_id,
+						value_country_id: item.country_id,
+						labelshow: item.name,
+						labelzone: item.zone
+					}
+				}));
+			}
+		});
+	}, 
+	select: function(event, ui) {
+		$('input[name=\'postcode\']').val(ui.item.labelshow);
+		$('select[name=\'country_id\']').val(ui.item.value_country_id);
+	   // $('input[name=\'city\']').val(ui.item.labelzone);	
+	   
+	   changeSelect(ui.item.value_country_id,ui.item.value_zone_id);
+	   	 										
+		return false;
+	},
+	focus: function(event, ui) {
+      	return false;
+   	}
+});
+//--></script>
+	
+</div>
+<div id="footer">
+  <div class="column">
+    <h3>Akun Saya</h3>
+    <ul>
+      <li><a href="http://jilbabAfraSidoarjo.id/akun-saya">Akun Saya</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/pemesanan">Riwayat Pesanan</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/daftar-belanja">Daftar Belanja</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/berlangganan">Berita</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Layanan Pelanggan</h3>
+    <ul>
+
+      <li><a href="http://jilbabAfraSidoarjo.id/kontak-kami">Hubungi Kami</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/retur-produk">Retur Produk</a></li>
+      
+      
+      
+    </ul>
+  </div>
+    <div class="column">
+    <h3>Informasi</h3>
+    <ul>
+            <li><a href="http://jilbabAfraSidoarjo.id/tentang-kami">Tentang Kami</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/tanya-jawab">Tanya Jawab</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+            <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+          </ul>
+  </div>
+  <!--  <div class="column">
+    <h3>Ekstra</h3>
+    <ul>
+      <li><a href="http://jilbabAfraSidoarjo.id/suplier">Merk</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/index.php?route=account/voucher">Voucher Hadiah</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/afiliasi">Afiliasi</a></li>
+      <li><a href="http://jilbabAfraSidoarjo.id/promo">Spesial</a></li>
+    </ul>
+  </div>
+</div>
+//-->
+<!--
+      <li><a href="http://jilbabAfraSidoarjo.id/sitemap">Peta Situs</a></li>
+//-->
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+<div id="powered"> jilbabAfra © 2016</div>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</div>
+</div><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;"></ul><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none; padding-bottom: 57px; padding-right: 28px;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
