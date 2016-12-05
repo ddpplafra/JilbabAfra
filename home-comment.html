@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </head>
+    <body>
+        <section>
+            <div id="banner">
+			<div id="slider">
+				<div class="viewer" >
+					<div class="reel" >
+                        <div class="slide"> <img src="images/slide-opencart-7-980x600.jpg" alt="" /> </div>
+						<div class="slide"> <img src="images/slide-opencart-4-980x600.jpg" alt="" /> </div>
+					</div>
+				</div>
+			</div>
+            <script type="text/javascript">
+			$('#slider').slidertron({
+				viewerSelector: '.viewer',
+				reelSelector: '.viewer .reel',
+				slidesSelector: '.viewer .reel .slide',
+				advanceDelay: 3000,
+				speed: 'slow'
+			});
+			</script> 
+            </div>
+
+        </section>
+    
+    </body>
+</html>
